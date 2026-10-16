@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 
 // 💡 방금 복사하신 구글 앱스 스크립트 웹 앱 URL을 아래 따옴표 안에 그대로 넣어주세요!
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylGFRWdEbr_7Qcs9j72uOhgZ7HjXPUpKqAffqZJYX6IJn0jS963WfZxUMSVKQYS_k/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz8Oh5oSMMPpukjNo7T4cTx1Rb1s4pWerIAwmB9aBpW8s_kHcm5XiNTkOLmxU6lGj0a/exec';
 
 export default function App() {
   const [mode, setMode] = useState('lookup'); // 'lookup' (참가자 조회) 또는 'admin' (현장 스태프 체크인)
