@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 
 const SUPABASE_URL = 'https://ixsdjtnwreukyykxhjbb.supabase.co';
-const SUPABASE_KEY = '여기에_내_anon_키_입력';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4c2RqdG53cmV1a3l5a3hoamJiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIxMzM4NDEsImV4cCI6MjEwNzcwOTg0MX0.Jn2dWyTxlLDRlM5Jeb74e4Qz5n3d-wFbcBzkJcHMJG4';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
